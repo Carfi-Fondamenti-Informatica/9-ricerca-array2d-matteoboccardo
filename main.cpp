@@ -9,10 +9,10 @@ int main(){
         cin>>list[i];
     }
     cin>>name;
-    if(res(list,name,a)){
-        cout<<a;
+    if (res(list,name,a)){
+        cout <<a;
     }else{
-        cout<<"non presente";
+        cout << "non presente";
     }
     return 0;
 }
